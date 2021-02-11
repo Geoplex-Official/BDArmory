@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDArmory", "BDArmory.csproj", "BDAiDev.csproj", "{D86F2003-1724-4F4C-BB5A-B0109CB16F35}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDArmory", "BDArmory.csproj", "{D86F2003-1724-4F4C-BB5A-B0109CB16F35}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDArmory.Core", "..\BDArmory.Core\BDArmory.Core.csproj", "{A6F1753E-9570-4C40-AF72-A179890582E5}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "BDAi", "..\BDAi\BDAi.pyproj", "{81EF87D9-355F-47E3-93A7-8F4849B796F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{A6F1753E-9570-4C40-AF72-A179890582E5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A6F1753E-9570-4C40-AF72-A179890582E5}.Release|x86.ActiveCfg = Release|Any CPU
 		{A6F1753E-9570-4C40-AF72-A179890582E5}.Release|x86.Build.0 = Release|Any CPU
+		{81EF87D9-355F-47E3-93A7-8F4849B796F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81EF87D9-355F-47E3-93A7-8F4849B796F7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{81EF87D9-355F-47E3-93A7-8F4849B796F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81EF87D9-355F-47E3-93A7-8F4849B796F7}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

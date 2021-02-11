@@ -1,9 +1,10 @@
+
 import tensorflow as tf
-import keras
+from tensorflow import keras
 
 import numpy as mp
 
-from keras import layers
+from tensorflow.keras import layers
 
 
     #2v2 ai for KSP BDA
